@@ -1,0 +1,17 @@
+{
+  "name": "lambda-to-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "invoke:hello": "sls invoke local -f hello",
+    "start": "sls offline start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless": "^2.60.1",
+    "serverless-offline": "^8.2.0"
+  }
+}
